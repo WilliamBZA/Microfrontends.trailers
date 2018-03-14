@@ -3,6 +3,7 @@ using ITOps.Composition;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Routing;
 using System;
+using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 
@@ -25,7 +26,10 @@ namespace TrailerSearch
             var web = new HtmlWeb();
             var doc = await web.LoadFromWebAsync(query);
 
-            var element = doc.GetElementbyId("video-title");
+            var classes = doc.DocumentNode.Descendants().Where(e => e.Attributes.Contains("class") && e.Attributes.Contains("href") && e.Attributes["class"].Value.Contains("yt-uix-sessionlink") && e.Attributes["href"].Value.Contains("/watch?v="));
+
+            var element = classes.FirstOrDefault();
+
             var href = element.GetAttributeValue("href", null);
 
             var trailerUrl = $"https://www.youtube.com{href}";
