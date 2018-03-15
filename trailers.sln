@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrailerSearch", "TrailerSearch\TrailerSearch.csproj", "{A6AAD8E2-675F-44BC-860B-A13E3D8F5FFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrailerSearch", "TrailerSearch\TrailerSearch.csproj", "{A6AAD8E2-675F-44BC-860B-A13E3D8F5FFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrailerWeb", "TrailerWeb\TrailerWeb.csproj", "{CD6AE70D-49BD-4F43-A5D2-12CF10E6AAA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A6AAD8E2-675F-44BC-860B-A13E3D8F5FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6AAD8E2-675F-44BC-860B-A13E3D8F5FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6AAD8E2-675F-44BC-860B-A13E3D8F5FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD6AE70D-49BD-4F43-A5D2-12CF10E6AAA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD6AE70D-49BD-4F43-A5D2-12CF10E6AAA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD6AE70D-49BD-4F43-A5D2-12CF10E6AAA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD6AE70D-49BD-4F43-A5D2-12CF10E6AAA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

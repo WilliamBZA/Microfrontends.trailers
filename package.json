@@ -1,0 +1,24 @@
+{
+  "name": "microfrontends.trailers",
+  "version": "1.0.0",
+  "files": [
+    "TrailerWeb/ClientApp/TrailerView.d.ts",
+    "TrailerWeb/ClientApp/TrailerView.tsx"
+  ],
+  "typings": "TrailerWeb/ClientApp/TrailerView.d.ts",
+  "main": "TrailerWeb/ClientApp/TrailerView.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilliamBZA/Microfrontends.trailers.git"
+  },
+  "author": "WilliamBZA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WilliamBZA/Microfrontends.trailers/issues"
+  },
+  "homepage": "https://github.com/WilliamBZA/Microfrontends.trailers#readme",
+  "description": ""
+}

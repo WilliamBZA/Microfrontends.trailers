@@ -31,10 +31,10 @@ namespace TrailerSearch
             var element = classes.FirstOrDefault();
 
             var href = element.GetAttributeValue("href", null);
+            return href.Substring(href.IndexOf("v=") + 2);
+            //var trailerUrl = $"https://www.youtube.com{href}";
 
-            var trailerUrl = $"https://www.youtube.com{href}";
-
-            return trailerUrl;
+            //return trailerUrl;
         }
 
         public async Task PopulateData(dynamic viewModel, RouteData routeData, HttpRequest request)
