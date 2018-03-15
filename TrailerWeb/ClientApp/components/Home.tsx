@@ -26,9 +26,8 @@ export class Home extends React.Component<RouteComponentProps<{}>, any> {
     }
     public render() {
 
-        return <div>asdas
+        return <div>
             <TrailerView trailer={this.state.trailer} />
-            meow
         </div>;
     }
 }
